@@ -1,22 +1,16 @@
 {
   "main": {
     "name":"Yusuf Yazıcı",
-    "description":"Makine Öğrenmesi Mühendisi / Turkcell",
+    "description":"With a Bachelor's degree in Computer Engineering from Istanbul Technical University and ongoing pursuit of a Master's degree, I bring a strong academic foundation and a passion for continuous learning to my role as a software developer. My 6+ years of experience at Turkcell has allowed me to develop a versatile skillset, initially focusing on Java, Spring Boot, and Oracle, and later expanding to include Python. As a machine learning engineer, I have a proven track record of implementing and deploying machine learning models in a production environment using both Java and Python. I am dedicated to staying current with industry advancements and constantly improving my skillset to provide high-quality solutions",
     "image":"profilepic.jpg",
-    "bio":"Geliyor...",
+    "bio":"Yusuf Yazıcı, who is a graduate of Istanbul Technical University's Computer Engineering program, is currently pursuing a master's degree. He has been working as a software developer at Turkcell for over 6 years. In the early years, he worked on Java, Spring Boot, and Oracle technologies, and later started working with Python. As a machine learning engineer, he has successfully implemented and deployed machine learning models in a production environment using both Java and Python. He is passionate about keeping up with industry advancements and continuously improving his skills",
     "contactmessage":"Geliyor...",
     "email": "yusufyazici@outlook.com",
     "phone": "555-555-5555",
     "github":"https://github.com/quents",
-    "project":"https://github.com/nordicgiant2/react-nice-resume",
-    "address":{
-      "street":"(Your Street)",
-      "city":"(Your City)",
-      "state":"(Your State)",
-      "zip": "(Your Zip/Postal Code)"
-    },
+    "linkedin": "https://www.linkedin.com/in/yzciyusuf/",
     "website": "http://www.yaziciyusuf.com",
-    "resumedownload":"Geliyor...",
+    "resumedownload":"https://www.icloud.com/iclouddrive/0b493Hlz0RKhUTe5uLlSbV5Kg#CV%5Fof%5FYusuf%5FYazici",
     "social":[
       {
         "name":"twitter",
@@ -39,60 +33,142 @@
     "skillmessage":"MLOps, Java, Python, DevOps",
     "education":[
       {
-        "school":"ITU",
-        "degree":"Masters in Beer tasting",
-        "graduated":"April 2017",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"İstanbul Teknik Üniversitesi",
+        "degree":"Bilgisayar Mühendisliği (Lisansüstü)",
+        "graduated":"Present",
+        "description":"My Master's thesis focuses on the prediction of fraud detection in online transactions using machine learning. My interest in this field has allowed me to enhance my skills in the application of artificial intelligence and machine learning technologies as an experienced machine learning engineer."
       },
       {
-        "school":"ITU",
-        "degree":"What did you study 101",
-        "graduated":"March 2013",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"İstanbul Teknik Üniversitesi",
+        "degree":"Bilgisayar Mühendisliği",
+        "graduated":"July 2016",
+        "description":"Istanbul Technical University's Bachelor of Computer Engineering program equipped me with a strong foundation in software development, providing hands-on experience through various projects and practical coursework. During my time at university, I gained skills in a range of programming languages, algorithms, and software design methodologies, preparing me for a successful career in the field."
       }
     ],
     "work":[
       {
-        "company":"Awesome Design Studio",
-        "title":"Senior UX God ",
-        "years":"March 2018 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"Turkcell",
+        "title":"Senior Machine Learning Engineer",
+        "years":"May 2020 - Present",
+        "description":"Since May 2020, I have been working as a machine learning engineer at Turkcell. During this time, I have been involved in various projects, including developing and serving the company's speech to text system and OCR system. The STT system has acoustic and language models trained with Kafka ASR framework and served using Python FastAPI. The OCR system uses three different FastAPI webservice modules for preprocessing, text detection and recognition, with custom solutions developed for certain document types. I have utilized technologies such as Python and FastAPI, as well as Apache Kafka for data processing. Additionally, I have dockerized and deployed machine learning projects to the Openshift environment. My role involves working on both the development and deployment of these projects, and ensuring that they are efficient and effective."
       },
       {
-        "company":"Super Cool Studio",
-        "title":"Junior bug fixer",
-        "years":"March 2017 - February 2018",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"Turkcell",
+        "title":"Software Engineer",
+        "years":"July 2016 - May 2020",
+        "description":"Between 2016 and 2020, I worked as a software developer at Turkcell Billing Development department. I developed scalable and horizontally extensible applications with low response time using Java, Spring Boot, and Oracle database systems. My responsibilities included proposing solutions for the back-end of the Turkcell billing system using Java and PL-SQL, developing software using Oracle technologies, and creating web applications using Java technologies and REST architecture. I applied the Kanban Agile methodology on all projects, visualizing production and measuring cycle time. I utilized Jenkins for continuous integration and DevOps and was responsible for the entire deployment process, from code analysis to versioning the package and sending it to production."
+      },
+      {
+        "company":"Veripark",
+        "title":"Part-time Software Engineer",
+        "years":"January 2016 - July 2020",
+        "description":"I have been involved in full-stack web software development processes using .NET technologies."
       }
     ],
     "skills":[
       {
         "name":"Python",
+        "level":"70%"
+      },
+      {
+        "name":"Java",
+        "level":"65%"
+      },
+      {
+        "name":"Relational Databases",
+        "level":"70%"
+      },
+      {
+        "name":"Spring Boot",
         "level":"60%"
       },
       {
-        "name":"VueJs",
-        "level":"55%"
+        "name":"MLOps",
+        "level":"60%"
       },
       {
-        "name":"ReactJs",
+        "name":"DevOps",
+        "level":"60%"
+      },
+      {
+        "name":"AWS",
         "level":"50%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Canadian Wanderlust",
+        "category":"My Travel Blog for my post-university travels",
+        "image":"01.jpg",
+        "url":"https://www.canadianwanderlust.com"
       },
       {
-        "name":"CSS",
-        "level":"90%"
+        "title":"Fury Fighting Gear",
+        "category":"(offline now) A fighting gear company I started",
+        "image":"02.jpg",
+        "url":"http://www.timbakerdev.com"
       },
       {
-        "name":"PHP",
-        "level":"80%"
+        "title":"Original Thai Food",
+        "category":"Website I built for a restaurant I like in Thailand",
+        "image":"03.jpg",
+        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
       },
       {
-        "name":"Swift",
-        "level":"50%"
+        "title":"Resume Website",
+        "category":"A React based resume website template",
+        "image":"04.jpg",
+        "url":"http://www.timbakerdev.com"
       },
       {
-        "name":"JAVA",
-        "level":"80%"
+        "title":"Smirkspace",
+        "category":"(MVP Only) A React and Meteor based chat University project.",
+        "image":"05.jpg",
+        "url":"http://www.smirkspace.com"
+      },
+      {
+        "title":"Canadian Wanderlust",
+        "category":"My Travel Blog for my post-university travels",
+        "image":"06.jpg",
+        "url":"https://www.canadianwanderlust.com"
+      },
+      {
+        "title":"Fury Fighting Gear",
+        "category":"(offline now) A fighting gear company I started",
+        "image":"01.jpg",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"Original Thai Food",
+        "category":"Website I built for a restaurant I like in Thailand",
+        "image":"02.jpg",
+        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+      },
+      {
+        "title":"Original Thai Food",
+        "category":"Website I built for a restaurant I like in Thailand",
+        "image":"03.jpg",
+        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+      },
+      {
+        "title":"Resume Website",
+        "category":"A React based resume website template",
+        "image":"04.jpg",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"Smirkspace",
+        "category":"(MVP Only) A React and Meteor based chat University project.",
+        "image":"05.jpg",
+        "url":"http://www.smirkspace.com"
+      },
+      {
+        "title":"Canadian Wanderlust",
+        "category":"My Travel Blog for my post-university travels",
+        "image":"06.jpg",
+        "url":"https://www.canadianwanderlust.com"
       }
     ]
   }
