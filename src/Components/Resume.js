@@ -66,6 +66,20 @@ class Resume extends Component {
       );
     });
 
+    const certificate = this.props.data.certificate.map(function (certificate) {
+      return (
+        <div key={certificate.name}>
+          <h2>{certificate.name}</h2>
+          <p className="info">
+            <em className="date">{certificate.years}</em>
+            <span>&bull;</span>
+            {certificate.institute}
+          </p>
+          <p>{certificate.description}</p>
+        </div>
+      );
+    });
+
     return (
       <section id="resume">
 
@@ -123,6 +137,18 @@ class Resume extends Component {
                 <ul className="skills">{skills}</ul>
               </div>
             </div>
+          </div>
+        </Slide>
+
+        <Slide left duration={1300}>
+          <div className="row work">
+            <div className="three columns header-col">
+              <h1>
+                <span>Certificates</span>
+              </h1>
+            </div>
+
+            <div className="nine columns main-col">{certificate}</div>
           </div>
         </Slide>
       </section>

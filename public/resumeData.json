@@ -33,13 +33,13 @@
     "skillmessage":"MLOps, Java, Python, DevOps",
     "education":[
       {
-        "school":"Istanbul Teknik Üniversitesi",
+        "school":"Istanbul Technical University",
         "degree":"Bilgisayar Mühendisliği (Lisansüstü)",
         "graduated":"Present",
         "description":"My Master's thesis focuses on the prediction of fraud detection in online transactions using machine learning. My interest in this field has allowed me to enhance my skills in the application of artificial intelligence and machine learning technologies as an experienced machine learning engineer."
       },
       {
-        "school":"Istanbul Teknik Üniversitesi",
+        "school":"Istanbul Technical University",
         "degree":"Bilgisayar Mühendisliği",
         "graduated":"July 2016",
         "description":"Istanbul Technical University's Bachelor of Computer Engineering program equipped me with a strong foundation in software development, providing hands-on experience through various projects and practical coursework. During my time at university, I gained skills in a range of programming languages, algorithms, and software design methodologies, preparing me for a successful career in the field."
@@ -135,34 +135,26 @@
         "description":"As a Lead Developer on the Regulatory Rule Monitoring project, I was responsible for implementing a cutting-edge task automation tool that facilitates compliance with industry regulations. The web-based platform, developed with Java Spring MVC and Hibernate, operates with a REST architecture to seamlessly connect the frontend and backend. Utilizing AngularJS for frontend development and Oracle PL/SQL for batch processing, RRM executes regulative controls on a daily, weekly, or monthly basis with a defined threshold, providing real-time regulatory compatibility rates through a user-friendly interface."
       }
   
-    ]
-  },
-  "projects": {
-    "project": [
+    ],
+    "certificate": [
       {
-        "name":"Optical Character Recognition as a Service",
-        "years": "2020 - Present",
-        "description":"My Travel Blog for my post-university travels"
+        "name":"Machine Learning Engineering Nanodegree",
+        "years": "2018",
+        "institute": "Udacity",
+        "description":"I participated in the Machine Learning Engineering Nanodegree program by Udacity, a comprehensive and hands-on educational program that focuses on building real-world skills in machine learning. The program covers key topics such as supervised and unsupervised learning, deep learning, reinforcement learning, and more. Through a combination of interactive lessons, coding exercises, and projects, I developed a deep understanding of the latest machine learning techniques and methodologies. This experience has prepared me to apply my knowledge in real-world applications and further advance my career in the field of machine learning."
       },
       {
-        "name":"Speech to Text as a Service",
-        "years": "2020 - Present",
-        "description":"(offline now) A fighting gear company I started"
+        "name":"Massachusetts Institute of Technology (MIT) Internet Of Things Bootcamp, Certificate of Completion",
+        "years": "2017",
+        "institute": "MIT",
+        "description":"An intense bootcamp that lasted a week, where we, as a team built an IoT product and tried to convince the jury that what we created is the best. Developed a product named LockWolf that controls and manages access to dangerous and expensive equipment in makerspaces. Technically, it is a Raspberry Pi device that could read RFID cards, authorize the card owner and validate from the system that the owner scheduled an appointment to use the equipment. The technologies used: Raspberry Pi and its Python library, RFID equipment, AWS REST architecture to communicate with the backend server, and Google Calendar to manage the scheduling processes."
+      
       },
       {
-        "name":"Recommendation Engines on online platforms",
-        "years": "2020",
-        "description":"(offline now) A fighting gear company I started"
-      },
-      {
-        "name":"Fraud Detection with Machine Learning on Online Transactions",
-        "years": "2022 - Present",
-        "description":"(offline now) A fighting gear company I started"
-      },
-      {
-        "name":"Instant Revenue Calculator",
-        "years": "2019 - 2020",
-        "description":"(offline now) A fighting gear company I started"
+        "name":"Massachusetts Institute of Technology (MIT) - Turkcell Innovation & Leadership Bootcamp, Certificate in New Ventures Leadership with Distinction",
+        "years": "2017",
+        "institute": "MIT & Turkcell",
+        "description":"I participated in the Massachusetts Institute of Technology Innovation & Leadership Bootcamp, a one-week intense program designed to equip individuals with the skills and knowledge necessary for innovation and leadership. The program, hosted by one of the world's leading universities in technology and innovation, provided a unique learning opportunity to enhance my abilities in these areas."
       }
   
     ]
