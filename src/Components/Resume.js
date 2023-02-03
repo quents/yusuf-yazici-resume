@@ -54,6 +54,18 @@ class Resume extends Component {
       );
     });
 
+    const project = this.props.data.project.map(function (project) {
+      return (
+        <div key={project.name}>
+          <h2>{project.name}</h2>
+          <p className="info">
+            <em className="date">{project.years}</em>
+          </p>
+          <p>{project.description}</p>
+        </div>
+      );
+    });
+
     return (
       <section id="resume">
 
@@ -86,6 +98,18 @@ class Resume extends Component {
         </Slide>
 
         <Slide left duration={1300}>
+          <div className="row work">
+            <div className="three columns header-col">
+              <h1>
+                <span>Major Projects</span>
+              </h1>
+            </div>
+
+            <div className="nine columns main-col">{project}</div>
+          </div>
+        </Slide>
+
+        <Slide left duration={1300}>
           <div className="row skill">
             <div className="three columns header-col">
               <h1>
@@ -94,7 +118,6 @@ class Resume extends Component {
             </div>
 
             <div className="nine columns main-col">
-              <p>{skillmessage}</p>
 
               <div className="bars">
                 <ul className="skills">{skills}</ul>

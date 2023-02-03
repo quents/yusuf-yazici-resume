@@ -1,7 +1,7 @@
 {
   "main": {
     "name":"Yusuf Yazıcı",
-    "description":"With a Bachelor's degree in Computer Engineering from Istanbul Technical University and ongoing pursuit of a Master's degree, I bring a strong academic foundation and a passion for continuous learning to my role as a software developer. My 6+ years of experience at Turkcell has allowed me to develop a versatile skillset, initially focusing on Java, Spring Boot, and Oracle, and later expanding to include Python. As a machine learning engineer, I have a proven track record of implementing and deploying machine learning models in a production environment using both Java and Python. I am dedicated to staying current with industry advancements and constantly improving my skillset to provide high-quality solutions",
+    "description":"With a Bachelor's degree in Computer Engineering from Istanbul Technical University and ongoing pursuit of a Master's degree, I bring a strong academic foundation and a passion for continuous learning to my role as a software developer. My 6+ years of experience at Turkcell has allowed me to develop a versatile skillset, initially focusing on developing microservice applications on Java, Spring Boot, and Oracle, and later expanding to include Python. As a machine learning engineer, I have a proven track record of implementing and deploying machine learning models in a production environment using both Java and Python. I am dedicated to staying current with industry advancements and constantly improving my skillset to provide high-quality solutions",
     "image":"profilepic.jpg",
     "bio":"Yusuf Yazıcı, who is a graduate of Istanbul Technical University's Computer Engineering program, is currently pursuing a master's degree. He has been working as a software developer at Turkcell for over 6 years. In the early years, he worked on Java, Spring Boot, and Oracle technologies, and later started working with Python. As a machine learning engineer, he has successfully implemented and deployed machine learning models in a production environment using both Java and Python. He is passionate about keeping up with industry advancements and continuously improving his skills",
     "contactmessage":"Geliyor...",
@@ -33,13 +33,13 @@
     "skillmessage":"MLOps, Java, Python, DevOps",
     "education":[
       {
-        "school":"İstanbul Teknik Üniversitesi",
+        "school":"Istanbul Teknik Üniversitesi",
         "degree":"Bilgisayar Mühendisliği (Lisansüstü)",
         "graduated":"Present",
         "description":"My Master's thesis focuses on the prediction of fraud detection in online transactions using machine learning. My interest in this field has allowed me to enhance my skills in the application of artificial intelligence and machine learning technologies as an experienced machine learning engineer."
       },
       {
-        "school":"İstanbul Teknik Üniversitesi",
+        "school":"Istanbul Teknik Üniversitesi",
         "degree":"Bilgisayar Mühendisliği",
         "graduated":"July 2016",
         "description":"Istanbul Technical University's Bachelor of Computer Engineering program equipped me with a strong foundation in software development, providing hands-on experience through various projects and practical coursework. During my time at university, I gained skills in a range of programming languages, algorithms, and software design methodologies, preparing me for a successful career in the field."
@@ -50,13 +50,13 @@
         "company":"Turkcell",
         "title":"Senior Machine Learning Engineer",
         "years":"May 2020 - Present",
-        "description":"Since May 2020, I have been working as a machine learning engineer at Turkcell. During this time, I have been involved in various projects, including developing and serving the company's speech to text system and OCR system. The STT system has acoustic and language models trained with Kafka ASR framework and served using Python FastAPI. The OCR system uses three different FastAPI webservice modules for preprocessing, text detection and recognition, with custom solutions developed for certain document types. I have utilized technologies such as Python and FastAPI, as well as Apache Kafka for data processing. Additionally, I have dockerized and deployed machine learning projects to the Openshift environment. My role involves working on both the development and deployment of these projects, and ensuring that they are efficient and effective."
+        "description":"Since May 2020, I have been working as a machine learning engineer at Turkcell. During this time, I have been involved in various projects, including developing and serving the company's speech to text system (STT) and OCR (Optical Character Recognition) system. The STT system has acoustic and language models trained with Kaldi ASR (Automatic Speech Recognition) framework and served using Python FastAPI. The OCR system uses three different FastAPI webservice modules for preprocessing, text detection and recognition, with custom solutions developed for certain document types. I have utilized technologies such as Python and FastAPI, as well as Apache Kafka for data processing. Additionally, I have dockerized and deployed machine learning projects to the Openshift environment. My role involves working on both the development and deployment of these projects, and ensuring that they are efficient and effective."
       },
       {
         "company":"Turkcell",
         "title":"Software Engineer",
         "years":"July 2016 - May 2020",
-        "description":"Between 2016 and 2020, I worked as a software developer at Turkcell Billing Development department. I developed scalable and horizontally extensible applications with low response time using Java, Spring Boot, and Oracle database systems. My responsibilities included proposing solutions for the back-end of the Turkcell billing system using Java and PL-SQL, developing software using Oracle technologies, and creating web applications using Java technologies and REST architecture. I applied the Kanban Agile methodology on all projects, visualizing production and measuring cycle time. I utilized Jenkins for continuous integration and DevOps and was responsible for the entire deployment process, from code analysis to versioning the package and sending it to production."
+        "description":"Between 2016 and 2020, I worked as a software developer at Turkcell Billing Development department. I developed scalable and horizontally extensible microservice applications with low response time using Java, Spring Boot, and Oracle database systems. My responsibilities included proposing solutions for the back-end of the Turkcell billing system using Java and PL-SQL, developing software using Oracle technologies, and creating web applications using Java technologies and REST architecture. I applied the Kanban Agile methodology on all projects, visualizing production and measuring cycle time. I utilized Jenkins for continuous integration and DevOps and was responsible for the entire deployment process, from code analysis to versioning the package and sending it to production."
       },
       {
         "company":"Veripark",
@@ -72,6 +72,14 @@
       },
       {
         "name":"Java",
+        "level":"65%"
+      },
+      {
+        "name":"Kubernetes",
+        "level":"60%"
+      },
+      {
+        "name":"Microservices",
         "level":"65%"
       },
       {
@@ -94,82 +102,70 @@
         "name":"AWS",
         "level":"50%"
       }
+    ],
+    "project": [
+      {
+        "name":"Optical Character Recognition as a Service",
+        "years": "2020 - Present",
+        "description":"The Optical Character Recognition system developed for Turkcell is a collection of Python FastAPI microservices. The system includes several modules for image preprocessing, a neural network based text detection using Differentiable Binarization architecture, text recognition using CRNN, background segmentation, document classification, signature detection, preprocessing, and postprocessing, all aimed at improving OCR accuracy. As the leader of the project, I have been responsible for developing its key features and guiding the project's architecture. The next step is to make the system available as an on-premise service and potentially as a mobile SDK. The microservices are also containerized and deployed on the Kubernetes Openshift platform."
+      },
+      {
+        "name":"Speech to Text as a Service",
+        "years": "2020 - Present",
+        "description":"The acoustic and language model is trained using the Kaldi ASR toolkit and served with Python FastAPI as a SaaS to make container orchestration easy and efficient. With the help of continuous integration processes and Openshift Kubernetes, STT language models for different needs can be easily deployed using only a single codebase. In addition to the core STT system, I was also responsible for two additional projects leveraging the STT technology. The first project involved the detection of inappropriate content in podcasts, utilizing the STT system to process the audio in real-time and make a callback to the client via a producer-consumer architecture using Kafka. The second project involved digital verification of new subscribers, where the STT system analyzed the voice as a web service and verified that the spoken text matched the subscription requirements. As a key contributor to this project, I was responsible for the successful implementation of these additional features."
+      },
+      {
+        "name":"Recommendation Engines on online platforms",
+        "years": "2020",
+        "description":"This project involved the development of a recommendation system for various online platforms, leveraging user and item interactions data, which is then integrated into the HDFS Hadoop platform. The Alternating Least Squares (ALS) recommender model was developed using PySpark to generate recommendations based on user and item interactions. The recommendations generated by the model are item-item similarity scores and user-item recommendation scores, providing users with personalized suggestions to help them find items of interest. The purpose of the recommendation system is to improve the user experience on the platform and increase engagement by presenting relevant items to the user. The user item interactions data included information such as how often users interacted with certain items, what items were frequently purchased or viewed together, and other relevant behavior patterns. This data was analyzed and used to develop the recommendation model, which was designed to learn from user behavior and suggest items that are likely to be of interest to individual users based on their past interactions."
+      },
+      {
+        "name":"Fraud Detection with Machine Learning on Online Transactions",
+        "years": "2022 - Present",
+        "description":"I am leading the development of a comprehensive fraud detection system for online transactions, including data collection, feature generation, exploratory data analysis, feature engineering, modeling, and MLOps. This cutting-edge project leverages state-of-the-art techniques to detect fraudulent activities in real-time, ensuring the security of online transactions and protecting against financial loss. Through my expertise in machine learning and experience in developing similar projects, I am equipped to bring the latest innovations and best practices to this project to ensure its success."
+      },
+      {
+        "name":"Instant Revenue Calculator",
+        "years": "2019 - 2020",
+        "description":"As the lead developer of the Instant Revenue Calculator project, I designed and implemented a high-performance, real-time multi-threaded application using Java and utilizing a microservices architecture. I leveraged Apache Kafka for event processing, which enables the system to handle an impressive 15 million records each day with ease. The project also makes use of Spring Data JPA for data access, providing a robust and scalable solution for calculating revenue in real-time."
+      },
+      {
+        "name":"Regulatory Rule Monitoring",
+        "years": "2018 - 2029",
+        "description":"As a Lead Developer on the Regulatory Rule Monitoring project, I was responsible for implementing a cutting-edge task automation tool that facilitates compliance with industry regulations. The web-based platform, developed with Java Spring MVC and Hibernate, operates with a REST architecture to seamlessly connect the frontend and backend. Utilizing AngularJS for frontend development and Oracle PL/SQL for batch processing, RRM executes regulative controls on a daily, weekly, or monthly basis with a defined threshold, providing real-time regulatory compatibility rates through a user-friendly interface."
+      }
+  
     ]
   },
-  "portfolio":{
-    "projects": [
+  "projects": {
+    "project": [
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"01.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "name":"Optical Character Recognition as a Service",
+        "years": "2020 - Present",
+        "description":"My Travel Blog for my post-university travels"
       },
       {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"02.jpg",
-        "url":"http://www.timbakerdev.com"
+        "name":"Speech to Text as a Service",
+        "years": "2020 - Present",
+        "description":"(offline now) A fighting gear company I started"
       },
       {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"03.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+        "name":"Recommendation Engines on online platforms",
+        "years": "2020",
+        "description":"(offline now) A fighting gear company I started"
       },
       {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"04.jpg",
-        "url":"http://www.timbakerdev.com"
+        "name":"Fraud Detection with Machine Learning on Online Transactions",
+        "years": "2022 - Present",
+        "description":"(offline now) A fighting gear company I started"
       },
       {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"05.jpg",
-        "url":"http://www.smirkspace.com"
-      },
-      {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"06.jpg",
-        "url":"https://www.canadianwanderlust.com"
-      },
-      {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"01.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"02.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"03.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"04.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"05.jpg",
-        "url":"http://www.smirkspace.com"
-      },
-      {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"06.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "name":"Instant Revenue Calculator",
+        "years": "2019 - 2020",
+        "description":"(offline now) A fighting gear company I started"
       }
+  
     ]
   }
+ 
 }
