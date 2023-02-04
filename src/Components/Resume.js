@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import Slide from "react-reveal";
+import Fade from "react-reveal";
+import Pulse from 'react-reveal/Pulse';
 
 class Resume extends Component {
   getRandomColor() {
@@ -111,8 +113,8 @@ class Resume extends Component {
           </div>
         </Slide>
 
-        <Slide left duration={1300}>
-          <div className="row work">
+        <Pulse duration={1300}>
+          <div className="row project">
             <div className="three columns header-col">
               <h1>
                 <span>Major Projects</span>
@@ -121,7 +123,7 @@ class Resume extends Component {
 
             <div className="nine columns main-col">{project}</div>
           </div>
-        </Slide>
+        </Pulse>
 
         <Slide left duration={1300}>
           <div className="row skill">

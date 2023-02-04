@@ -1,7 +1,7 @@
 {
   "main": {
     "name":"Yusuf Yazıcı",
-    "description":"With a Bachelor's degree in Computer Engineering from Istanbul Technical University and ongoing pursuit of a Master's degree, I bring a strong academic foundation and a passion for continuous learning to my role as a software developer. My 6+ years of experience at Turkcell has allowed me to develop a versatile skillset, initially focusing on developing microservice applications on Java, Spring Boot, and Oracle, and later expanding to include Python. As a machine learning engineer, I have a proven track record of implementing and deploying machine learning models in a production environment using both Java and Python. I am dedicated to staying current with industry advancements and constantly improving my skillset to provide high-quality solutions",
+    "description":"With a Bachelor's degree in Computer Engineering from Istanbul Technical University and ongoing pursuit of a Master's degree, I bring a strong academic foundation and a passion for continuous learning to my role as a software developer. My 6+ years of experience at Turkcell has allowed me to develop a versatile skillset, initially focusing on developing microservice applications with Java, Spring Boot, and Oracle, and later expanding to include Python. I have a proven track record of implementing and deploying machine learning models in a production environment using both Java and Python. I am dedicated to staying current with industry advancements and constantly improving my skillset to provide high-quality solutions.",
     "image":"profilepic.jpg",
     "bio":"Yusuf Yazıcı, who is a graduate of Istanbul Technical University's Computer Engineering program, is currently pursuing a master's degree. He has been working as a software developer at Turkcell for over 6 years. In the early years, he worked on Java, Spring Boot, and Oracle technologies, and later started working with Python. As a machine learning engineer, he has successfully implemented and deployed machine learning models in a production environment using both Java and Python. He is passionate about keeping up with industry advancements and continuously improving his skills",
     "contactmessage":"Geliyor...",
@@ -34,13 +34,13 @@
     "education":[
       {
         "school":"Istanbul Technical University",
-        "degree":"Bilgisayar Mühendisliği (Lisansüstü)",
+        "degree":"Computer Engineering (MSc)",
         "graduated":"Present",
         "description":"My Master's thesis focuses on the prediction of fraud detection in online transactions using machine learning. My interest in this field has allowed me to enhance my skills in the application of artificial intelligence and machine learning technologies as an experienced machine learning engineer."
       },
       {
         "school":"Istanbul Technical University",
-        "degree":"Bilgisayar Mühendisliği",
+        "degree":"Computer Engineering (BSc)",
         "graduated":"July 2016",
         "description":"Istanbul Technical University's Bachelor of Computer Engineering program equipped me with a strong foundation in software development, providing hands-on experience through various projects and practical coursework. During my time at university, I gained skills in a range of programming languages, algorithms, and software design methodologies, preparing me for a successful career in the field."
       }

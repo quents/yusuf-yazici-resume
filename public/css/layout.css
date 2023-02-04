@@ -47,11 +47,12 @@ header:before {
 }
 header .banner {
    display: inline-block;
-   vertical-align: middle;
+   /*display:table-cell;*/
    margin: 0 auto;
    width: 85%;
    padding-bottom: 30px;
    text-align: center;
+   vertical-align: middle;
 }
 
 header .banner-text { width: 100%; }
