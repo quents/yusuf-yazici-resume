@@ -131,7 +131,7 @@
       },
       {
         "name":"Regulatory Rule Monitoring",
-        "years": "2018 - 2029",
+        "years": "2018 - 2019",
         "description":"As a Lead Developer on the Regulatory Rule Monitoring project, I was responsible for implementing a cutting-edge task automation tool that facilitates compliance with industry regulations. The web-based platform, developed with Java Spring MVC and Hibernate, operates with a REST architecture to seamlessly connect the frontend and backend. Utilizing AngularJS for frontend development and Oracle PL/SQL for batch processing, RRM executes regulative controls on a daily, weekly, or monthly basis with a defined threshold, providing real-time regulatory compatibility rates through a user-friendly interface."
       }
   
