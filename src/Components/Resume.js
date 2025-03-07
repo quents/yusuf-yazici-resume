@@ -126,23 +126,6 @@ class Resume extends Component {
         </Pulse>
 
         <Slide left duration={1300}>
-          <div className="row skill">
-            <div className="three columns header-col">
-              <h1>
-                <span>Skills</span>
-              </h1>
-            </div>
-
-            <div className="nine columns main-col">
-
-              <div className="bars">
-                <ul className="skills">{skills}</ul>
-              </div>
-            </div>
-          </div>
-        </Slide>
-
-        <Slide left duration={1300}>
           <div className="row work">
             <div className="three columns header-col">
               <h1>
